@@ -39,7 +39,6 @@ const getHandScore = (cards) => {
       if (number === "A") {
         handScore = 35;
       } else {
-        console.log("noormal trippple");
         handScore = 32.5;
       }
     } else {
